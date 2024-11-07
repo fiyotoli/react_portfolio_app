@@ -1,0 +1,13 @@
+/* Navbar.css */
+
+/* Add shadow on scroll */
+.navbar.shadow-sm {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Set the active link style */
+.nav-link.active {
+    color: #007bff !important; /* Primary color for active link */
+    border-left: 3px solid #007bff; /* Primary color for border */
+    border-radius: 0 5px 5px 0;
+}
